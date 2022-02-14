@@ -14,22 +14,88 @@
     <div>
         <h1>Sign up for free to start reading</h1>
         <div>
-            <button title="Google"><input type="image" src="/img/google.png"> Google </button>
-            <button title="Google"><input type="image" src="/img/apple.png"> Apple </button>
-            <input type="button" value="Facebook" title="Facebook">
+            <a href=""><button title="Google"><input type="image" src="/img/google.png"> Google </button></a>
+            <a href=""><button title="Google"><input type="image" src="/img/apple.png"> Apple </button></a>
+            <a href=""><input type="button" value="Facebook" title="Facebook"></a>
         </div>
     </div>
     <br>
-    <div></div>
     <div>
-        <input type="text" placeholder="Enter your name or nickname.">
-        <input type="text" placeholder="Enter your email.">
-        <input type="password" placeholder="Create a password.">
-        <img src="/img/info.png">
-        <pr>The password must be at least 8 characters.</pr>
-        <input type="password" placeholder="Enter the password again.">
-        
+        <hr>
+        <pr>or</pr>
+        <hr>
     </div>
-    
+    <div>
+        <form>
+            <div>
+                <input type="text" placeholder="Enter your name or nickname.">
+            </div>
+            <br>
+            <div>
+                <input type="text" placeholder="Enter your email.">
+            </div>
+            <br>
+            <div>
+                <input type="password" placeholder="Create a password." minlength="8">
+                <br>
+                <div>
+                    <img src="/img/info.png">
+                    <pr>The password must be at least 8 characters.</pr>
+                </div>
+                <br>
+                <div>
+                    <input type="password" placeholder="Enter the password again." minlength="8">
+                </div>
+            </div>
+            <div>
+                <h3>What's your date of birth?</h3>
+                <div>
+                    <input type="text" placeholder="DD" size="2" minlength="1" maxlength="2">
+                        <select name="month">
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+                        </select>
+                    <input type="text" placeholder="YYYY" size="4" minlength="4" maxlength="4">
+                </div>
+            </div>
+            <div>
+                <h3>What's your gender?</h3>
+                <div>
+                    <input type="radio"> Male <br>
+                    <input type="radio"> Female <br>
+                    <input type="radio"> Non-binary
+                </div>
+            </div>
+            <br>
+            <div>
+                <pr>By clicking on sign-up, you agree to Free Books's 
+                    <a href="">Terms and Conditions of Use</a>.</pr>
+            </div>
+            <br>
+            <div>
+                <pr>To learn more about how Free Books collects, uses, 
+                    shares and protects your personal data, please see 
+                    <a href="">Free Books's Privacy Policy</a>.</pr>
+            </div>
+            <br>
+            <div>
+                <a href=""><input type="button" value="Sign Up"></a>
+            </div>
+            <br>
+            <div>
+                <pr>Have an acount? <a href="">Log in</a>.</pr>
+            </div>
+        </form>
+        
 </body>
 </html>
